@@ -38,6 +38,7 @@
 		11921E5A1AE52C16008B47DA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 11921E501AE52C16008B47DA /* UIProgressView+AFNetworking.m */; };
 		11921E5B1AE52C16008B47DA /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 11921E521AE52C16008B47DA /* UIRefreshControl+AFNetworking.m */; };
 		11921E5C1AE52C16008B47DA /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 11921E541AE52C16008B47DA /* UIWebView+AFNetworking.m */; };
+		11921E611AE52D49008B47DA /* AFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 11921E601AE52D49008B47DA /* AFNetworkTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		11921E521AE52C16008B47DA /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		11921E531AE52C16008B47DA /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		11921E541AE52C16008B47DA /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		11921E5F1AE52D49008B47DA /* AFNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkTool.h; sourceTree = "<group>"; };
+		11921E601AE52D49008B47DA /* AFNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,7 @@
 		11921DF71AE52AC6008B47DA /* AFNetWorkingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				11921E5E1AE52D0A008B47DA /* Tools */,
 				11921E5D1AE52C39008B47DA /* Library */,
 				11921E001AE52AC6008B47DA /* AppDelegate.h */,
 				11921E011AE52AC6008B47DA /* AppDelegate.m */,
@@ -265,6 +269,15 @@
 				11921E261AE52C06008B47DA /* AFNetworking */,
 			);
 			name = Library;
+			sourceTree = "<group>";
+		};
+		11921E5E1AE52D0A008B47DA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				11921E5F1AE52D49008B47DA /* AFNetworkTool.h */,
+				11921E601AE52D49008B47DA /* AFNetworkTool.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +386,7 @@
 				11921E411AE52C06008B47DA /* AFURLResponseSerialization.m in Sources */,
 				11921E3F1AE52C06008B47DA /* AFURLConnectionOperation.m in Sources */,
 				11921E581AE52C16008B47DA /* UIButton+AFNetworking.m in Sources */,
+				11921E611AE52D49008B47DA /* AFNetworkTool.m in Sources */,
 				11921E561AE52C16008B47DA /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				11921E3E1AE52C06008B47DA /* AFSecurityPolicy.m in Sources */,
 				11921E5B1AE52C16008B47DA /* UIRefreshControl+AFNetworking.m in Sources */,
